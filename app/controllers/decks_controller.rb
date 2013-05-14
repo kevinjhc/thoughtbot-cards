@@ -6,6 +6,7 @@ class DecksController < ApplicationController
 
   def show
     @deck = Deck.find(params[:id])
+    @cards = @deck.cards.order(:created_at).reverse_order
   end
 
   def new

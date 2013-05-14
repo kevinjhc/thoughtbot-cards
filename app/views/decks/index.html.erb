@@ -1,11 +1,16 @@
-<%= link_to "New Deck", new_deck_path %>
+<h1>Decks</h1>
 
-<br /><br />
+<li class="card">
+  <%= link_to "Add New Deck", new_deck_path %>
+</li>
 
 <% @decks.each do |deck| %>
-  <li>
-    <%= link_to deck.name, deck %> | 
-    <%= link_to "Edit", edit_deck_path(deck) %> | 
-    <%= link_to "Delete", deck, method: :delete, data: { :confirm => 'Are you sure?' } %>
+  <li class="card">
+    <%= link_to deck.name, deck %>
+    
+    <div class="actions">
+      <%= link_to "Edit", edit_deck_path(deck) %> | 
+      <%= link_to "Delete", deck, method: :delete, data: { :confirm => 'Are you sure?' } %>
+    </div>
   </li>
 <% end %>

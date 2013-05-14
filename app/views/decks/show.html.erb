@@ -1,1 +1,21 @@
+<h5><%= link_to '< Back to Decks', decks_path %></h5>
 <h1><%= @deck.name %></h1>
+
+<li class="card">
+  <%= link_to "Add New Card", new_deck_card_path(@deck) %>
+</li>
+
+<% @cards.each do |card| %>
+  <li class="card">
+    <%= card.front %>
+
+    <div class="card-hover">
+      <%= card.back %>
+    </div>
+
+    <div class="actions">
+      <%= link_to "Edit", edit_deck_card_path(@deck, card) %> | 
+      <%= link_to "Delete", deck_card_path(@deck, card), method: :delete %>
+    </div>
+  </li>
+<% end %>

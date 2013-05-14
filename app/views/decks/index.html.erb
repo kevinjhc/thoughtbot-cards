@@ -1,7 +1,10 @@
-<h1>Decks</h1>
-
-<li class="card">
+<!--<li class="card add-new">
   <%= link_to "Add New Deck", new_deck_path %>
+</li>
+-->
+
+<li class="card add-new">
+  <%= link_to "Add New Deck", new_deck_path, id: "new_deck", remote: true %>
 </li>
 
 <% @decks.each do |deck| %>

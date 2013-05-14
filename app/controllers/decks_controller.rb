@@ -11,6 +11,11 @@ class DecksController < ApplicationController
 
   def new
     @deck = Deck.new
+
+    respond_to do |format|
+      format.html { redirect_to decks_path }
+      format.js
+    end
   end
 
   def create

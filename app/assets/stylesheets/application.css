@@ -30,8 +30,16 @@ h1, h5 { margin-left: 20px; }
   list-style: none;
   margin: 20px;
   float: left;
+  height: 20px;
 
   transition: all .2s;
+}
+
+.add-new {
+  opacity: .7;
+}
+.add-new:hover {
+  opacity: 1;
 }
 
 .card-hover {
@@ -61,4 +69,8 @@ h1, h5 { margin-left: 20px; }
 }
 .actions:hover {
   opacity: 1;
+}
+
+#new_card {
+  margin-top: -50px;
 }

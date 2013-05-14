@@ -11055,3 +11055,1530 @@ Processing by DecksController#edit as HTML
   [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
   Rendered decks/edit.html.erb within layouts/application (2.9ms)
 Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:51:14 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 95ms (Views: 90.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:15 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:15 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+Processing by DecksController#index as HTML
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks"
+  Rendered decks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:16 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+Processing by DecksController#index as HTML
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks"
+  Rendered decks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 410ms (Views: 409.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:51:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-14 11:52:07 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 392ms (Views: 391.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:08 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:08 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+Processing by DecksController#index as HTML
+  [1m[35mDeck Load (0.3ms)[0m  SELECT "decks".* FROM "decks"
+  Rendered decks/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:19 -0400
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 11:52:21 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDeck Load (0.3ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  [1m[35mCard Load (1.8ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 44ms (Views: 25.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 11:52:29 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 460ms (Views: 457.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:30 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:30 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-14 11:52:35 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.3ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:52:38 -0400
+Processing by DecksController#new as HTML
+  Rendered decks/_form.html.erb (54.0ms)
+  Rendered decks/new.html.erb within layouts/application (57.4ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/decks" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+Processing by DecksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8WqW25+kkbsml6LGmfylxW22JqSelSTiUVwA9SP4//0=", "deck"=>{"name"=>"Deck 2"}, "commit"=>"Create Deck"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "decks" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 14 May 2013 15:52:42 UTC +00:00], ["name", "Deck 2"], ["updated_at", Tue, 14 May 2013 15:52:42 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/decks/18
+Completed 302 Found in 7ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/decks/18" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "18"]]
+  [1m[35mCard Load (0.1ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 18]]
+  Rendered decks/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:52:42 -0400
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:52:44 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 11:52:48 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.3ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/decks/17/cards/5/edit" for 127.0.0.1 at 2013-05-14 11:52:51 -0400
+Processing by CardsController#edit as HTML
+  Parameters: {"deck_id"=>"17", "id"=>"5"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.3ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered cards/_form.html.erb (6.5ms)
+  Rendered cards/edit.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:53:15 -0400
+Processing by DecksController#index as HTML
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks"
+  Rendered decks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:56:55 -0400
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:56:57 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (2.6ms)
+  Rendered decks/new.js.erb (9.4ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:02 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.8ms)
+  Rendered decks/new.js.erb (5.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:03 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.6ms)
+  Rendered decks/new.js.erb (4.7ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:26 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:31 -0400
+Processing by DecksController#new as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:31 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:31 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:31 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:31 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:31 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:31 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:32 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:35 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:36 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 50ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:40 -0400
+Processing by DecksController#index as HTML
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+Processing by DecksController#index as HTML
+  [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks"
+  Rendered decks/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:57:44 -0400
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:45 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (2.4ms)
+  Rendered decks/new.js.erb (3.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:50 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.7ms)
+  Rendered decks/new.js.erb (2.9ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:50 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.5ms)
+  Rendered decks/new.js.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:51 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.5ms)
+  Rendered decks/new.js.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:51 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.8ms)
+  Rendered decks/new.js.erb (2.5ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:51 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.5ms)
+  Rendered decks/new.js.erb (2.3ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:57:52 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.5ms)
+  Rendered decks/new.js.erb (2.3ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:58:08 -0400
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:58:09 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (2.2ms)
+  Rendered decks/new.js.erb (3.6ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/decks" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+Processing by DecksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8WqW25+kkbsml6LGmfylxW22JqSelSTiUVwA9SP4//0=", "deck"=>{"name"=>""}, "commit"=>"Create Deck"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "decks" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 14 May 2013 15:59:20 UTC +00:00], ["name", ""], ["updated_at", Tue, 14 May 2013 15:59:20 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/decks/19
+Completed 302 Found in 51ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/decks/19" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "19"]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 19]]
+  Rendered decks/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:20 -0400
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:59:22 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/decks/19" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+Processing by DecksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8WqW25+kkbsml6LGmfylxW22JqSelSTiUVwA9SP4//0=", "id"=>"19"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "19"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "decks" WHERE "decks"."id" = ?  [["id", 19]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 8ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+Processing by DecksController#index as HTML
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks"
+  Rendered decks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:24 -0400
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:59:26 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.9ms)
+  Rendered decks/new.js.erb (2.8ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 11:59:51 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 200ms (Views: 198.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:52 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 11:59:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 11:59:52 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 11:59:52 -0400
+
+
+Started GET "/decks/new" for 127.0.0.1 at 2013-05-14 11:59:53 -0400
+Processing by DecksController#new as JS
+  Rendered decks/_form.html.erb (1.7ms)
+  Rendered decks/new.js.erb (2.6ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 11:59:57 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 11:59:58 -0400
+Processing by CardsController#new as HTML
+  Parameters: {"deck_id"=>"17"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  Rendered cards/_form.html.erb (3.5ms)
+  Rendered cards/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 79ms (Views: 20.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:37 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:00:39 -0400
+Processing by CardsController#new as HTML
+  Parameters: {"deck_id"=>"17"}
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+Completed 500 Internal Server Error in 6ms
+
+NameError (undefined local variable or method `cards_path' for #<CardsController:0x007faa8f698fe8>):
+  app/controllers/cards_controller.rb:8:in `block (2 levels) in new'
+  app/controllers/cards_controller.rb:7:in `new'
+
+
+  Rendered /Users/Kevin/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Kevin/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kevin/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/Kevin/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:40 -0400
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.3ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 83ms (Views: 23.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:45 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:00:46 -0400
+Processing by CardsController#new as HTML
+  Parameters: {"deck_id"=>"17"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+Redirected to http://localhost:3000/decks
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 12:00:46 -0400
+Processing by DecksController#index as HTML
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks"[0m
+  Rendered decks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 45ms (Views: 24.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:00:54 -0400
+Processing by CardsController#new as HTML
+  Parameters: {"deck_id"=>"17"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+Redirected to http://localhost:3000/decks/17
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:00:55 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:37 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:01:38 -0400
+Processing by CardsController#new as JS
+  Parameters: {"deck_id"=>"17"}
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  Rendered cards/_form.html.erb (3.6ms)
+  Rendered cards/new.js.erb (5.1ms)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/decks/17/cards" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+Processing by CardsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8WqW25+kkbsml6LGmfylxW22JqSelSTiUVwA9SP4//0=", "card"=>{"front"=>"Front", "back"=>"Back"}, "commit"=>"Create Card", "deck_id"=>"17"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "cards" ("back", "created_at", "deck_id", "front", "updated_at") VALUES (?, ?, ?, ?, ?)  [["back", "Back"], ["created_at", Tue, 14 May 2013 16:01:47 UTC +00:00], ["deck_id", 17], ["front", "Front"], ["updated_at", Tue, 14 May 2013 16:01:47 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/decks/17
+Completed 302 Found in 10ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.3ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:01:47 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:01:53 -0400
+Processing by CardsController#new as JS
+  Parameters: {"deck_id"=>"17"}
+  [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  Rendered cards/_form.html.erb (2.7ms)
+  Rendered cards/new.js.erb (3.6ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 437ms (Views: 435.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:20 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:02:21 -0400
+Processing by CardsController#new as JS
+  Parameters: {"deck_id"=>"17"}
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  Rendered cards/_form.html.erb (4.4ms)
+  Rendered cards/new.js.erb (5.4ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:24 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:02:25 -0400
+Processing by CardsController#new as JS
+  Parameters: {"deck_id"=>"17"}
+  [1m[35mDeck Load (0.1ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  Rendered cards/_form.html.erb (3.1ms)
+  Rendered cards/new.js.erb (3.9ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:02:27 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDeck Load (0.2ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:27 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:28 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:28 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:28 -0400
+
+
+Started GET "/decks/17/cards/new" for 127.0.0.1 at 2013-05-14 12:02:29 -0400
+Processing by CardsController#new as JS
+  Parameters: {"deck_id"=>"17"}
+  [1m[36mDeck Load (0.1ms)[0m  [1mSELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1[0m  [["id", "17"]]
+  Rendered cards/_form.html.erb (3.4ms)
+  Rendered cards/new.js.erb (4.3ms)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/decks/17/cards/10/edit" for 127.0.0.1 at 2013-05-14 12:02:45 -0400
+Processing by CardsController#edit as HTML
+  Parameters: {"deck_id"=>"17", "id"=>"10"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered cards/_form.html.erb (2.5ms)
+  Rendered cards/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/decks/17" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+Processing by DecksController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks" WHERE "decks"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."deck_id" = ? ORDER BY "cards".created_at DESC[0m  [["deck_id", 17]]
+  Rendered decks/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+
+
+Started GET "/assets/decks.css?body=1" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+
+
+Started GET "/assets/decks.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-14 12:02:53 -0400
+
+
+Started GET "/decks" for 127.0.0.1 at 2013-05-14 12:02:54 -0400
+Processing by DecksController#index as HTML
+  [1m[35mDeck Load (0.2ms)[0m  SELECT "decks".* FROM "decks"
+  Rendered decks/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.2ms)

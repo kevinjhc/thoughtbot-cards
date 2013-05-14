@@ -1,8 +1,14 @@
 <h5><%= link_to '< Back to Decks', decks_path %></h5>
 <h1><%= @deck.name %></h1>
 
-<li class="card">
+<!--
+<li class="card add-new">
   <%= link_to "Add New Card", new_deck_card_path(@deck) %>
+</li>
+-->
+
+<li class="card add-new">
+  <%= link_to "Add New Card", new_deck_card_path(@deck), id: "new_card", remote: true  %>
 </li>
 
 <% @cards.each do |card| %>

@@ -3,6 +3,11 @@ class CardsController < ApplicationController
   def new
     @deck = Deck.find(params[:deck_id])
     @card = @deck.cards.new
+
+    respond_to do |format|
+      format.html { redirect_to @deck }
+      format.js
+    end
   end
 
   def create

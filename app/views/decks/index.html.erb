@@ -1,0 +1,11 @@
+<%= link_to "New Deck", new_deck_path %>
+
+<br /><br />
+
+<% @decks.each do |deck| %>
+  <li>
+    <%= link_to deck.name, deck %> | 
+    <%= link_to "Edit", edit_deck_path(deck) %> | 
+    <%= link_to "Delete", deck, method: :delete, data: { :confirm => 'Are you sure?' } %>
+  </li>
+<% end %>
